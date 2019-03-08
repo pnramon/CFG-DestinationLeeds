@@ -1,12 +1,7 @@
-body {
+body, html {
+  height: 100%;
+  margin: 0px;
   font-family: 'Open Sans';
-}
-
-.header {
-  font-family: 'Pacifico', cursive;
-  color: tomato;
-  text-align: center;
-  font-size: 20px;
 }
 
 .hero-image {
@@ -108,6 +103,13 @@ body {
   top: 15px;
   right: 35px;
   }
+}
+
+.header {
+  font-family: 'Pacifico', cursive;
+  color: tomato;
+  text-align: center;
+  font-size: 20px;
 }
 
 /* Create two unequal columns that floats next to each other */
