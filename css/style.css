@@ -11,7 +11,7 @@ a {
 }
 
 .hero-image {
-  background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("/Users/apple/Documents/codefirst/GitHub/CFG-DestinationLeeds/Headrow_and_Town_Hall_at_night_Leeds_City_Council_.jpg");
+  background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("../Headrow_and_Town_Hall_at_night_Leeds_City_Council_.jpg");
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
