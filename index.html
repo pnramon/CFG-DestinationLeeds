@@ -2,28 +2,40 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Destination Leeds</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Unica+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <script src="js/script.js"></script>
   </head>
   <body>
-    <div class="row">
-  <div class="leftcolumn">
-    <div class="card">
-      <h2>TITLE HEADING</h2>
-      <h5>Title description, Dec 7, 2017</h5>
-      <div class="fakeimg" style="height:200px;">Image</div>
-      <p>Some text..</p>
+
+  <div class="hero-image">
+    <div class="hero-text">
+      <h1 style="font-size:70px">Destination Leeds</h1>
+      <!-- Use any element to open/show the overlay navigation menu -->
+      <div class="homemenu-text"><span onclick="openNav()">EXPLORE</span></div>
     </div>
-    <div class="card">
-      <h2>TITLE HEADING</h2>
-      <h5>Title description, Sep 2, 2017</h5>
-      <div class="fakeimg" style="height:200px;">Image</div>
-      <p>Some text..</p>
   </div>
-  <div class="card">
-     <h3>Popular Post</h3>
-     <div class="fakeimg">Image</div><br>
-     <div class="fakeimg">Image</div><br>
-     <div class="fakeimg">Image</div>
-   </div>
+
+  <div id="myNav" class="overlay">
+
+    <!-- Button to close the overlay navigation -->
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+    <!-- Overlay content -->
+    <div class="overlay-content">
+      <a href="about.html">About</a>
+      <a href="#">Cafes</a>
+      <a href="#">Day Trips</a>
+      <a href="attractions.html">Attractions</a>
+      <a href="#">Events</a>
+    </div>
+
+  </div>
+
   </body>
 </html>
