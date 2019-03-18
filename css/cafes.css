@@ -1,11 +1,28 @@
 body, html {
   height: 100px;
   margin:0px;
-  font-family: sans-serif;
+  font-family: 'Open Sans';
+}
+.header {
+  font-family: 'Pacifico', cursive;
+  color: tomato;
+  text-align: center;
+  font-size: 20px;
+  padding: 50px;
+  text-decoration: none;
+}
+a {
+  color: tomato;
+  cursor: crosshair;
+  text-decoration: none;
 }
 
-h1{
-  font-family: 'Unica One'
-  text-align: center;
-  color:tomato;
+a:link, a:hover, a:visited, a:active {
+  text-decoration: none;
+  color: tomato;
+  cursor: crosshair;
+}
+.subheader{
+  font-family: 'Unica One';
+  font-size: 25px;
 }
