@@ -15,6 +15,9 @@ body, html {
   padding: 50px;
   text-decoration: none;
 }
+img{
+  width: 500px;
+}
 a {
   color: tomato;
   cursor: crosshair;
