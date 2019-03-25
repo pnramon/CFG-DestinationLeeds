@@ -28,7 +28,7 @@ a {
 
 a:link, a:hover, a:visited, a:active {
   text-decoration: none;
-  color: tomato;
+  color: black;
   cursor: crosshair;
 }
 
